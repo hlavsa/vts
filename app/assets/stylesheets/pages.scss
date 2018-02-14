@@ -124,13 +124,12 @@ li {
   max-width: 32em;
   max-width: 80ch;
   line-height: 1.3;
-  margin-bottom: 10px;
 }
 
 
 /* main */
 
-.card#zadost {
+.card#appeal {
   border: 0px;
   color: #fff;
   background: #3494E6;  /* fallback for old browsers */
@@ -139,9 +138,29 @@ li {
   -webkit-box-shadow: 0px 60px 20px -30px rgba(52, 148, 230, 0.3);
   -moz-box-shadow:    0px 60px 20px -30px rgba(52, 148, 230, 0.3);
   box-shadow:         0px 60px 20px -30px rgba(52, 148, 230, 0.3);
+  // -webkit-transition: all 200ms ease-in;
+  // -webkit-transform: scale(1); 
+  // -ms-transition: all 200ms ease-in;
+  // -ms-transform: scale(1); 
+  // -moz-transition: all 200ms ease-in;
+  // -moz-transform: scale(1);
+  // transition: all 200ms ease-in;
+  // transform: scale(1); 
 }
 
-.card#trest {
+.card#appeal:hover {
+  // z-index: 2;
+  // -webkit-transition: all 200ms ease-in;
+  // -webkit-transform: scale(1.5);
+  // -ms-transition: all 200ms ease-in;
+  // -ms-transform: scale(1.5);   
+  // -moz-transition: all 200ms ease-in;
+  // -moz-transform: scale(1.5);
+  // transition: all 200ms ease-in;
+  // transform: scale(1.03);
+}
+
+.card#debt {
   border: 0px;
   color: #fff;
   background: #FF5F6D;  /* fallback for old browsers */
@@ -150,6 +169,27 @@ li {
   -webkit-box-shadow: 0px 60px 20px -30px rgba(255, 195, 113, 0.3);
   -moz-box-shadow:    0px 60px 20px -30px rgba(255, 195, 113, 0.3);
   box-shadow:         0px 60px 20px -30px rgba(255, 195, 113, 0.3);
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1); 
+}
+
+.card#debt:hover
+{
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.03);
 }
 
 .progress {
@@ -182,7 +222,27 @@ li {
 
 .card_footer {
   margin: auto;
-  text-align:center;
+  text-align: center;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1); 
+}
+
+.card_footer:hover {
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.05);
 }
 
 .card-tools {
@@ -192,6 +252,10 @@ li {
   &:first-child {
     padding-left: 0;
   }
+}
+
+.card-tools:hover {
+  color: #fff;
 }
 
 i.fa.fa-circle {
@@ -212,17 +276,61 @@ i.fa.fa-circle {
   padding-top: 30px;
 }
 
-.card_info {
-  padding-top: 20px;
+.card {
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
 
-// .nav-pills .nav-link.active {
-//   color: #394558;
-//   background-color: transparent;
-//   border-bottom: 3px solid #4E7396;
-//   border-radius: 0;
-// }
+.nav-pills .nav-link.active {
+  font-weight: bold;
+  color: #394558;
+  background-color: transparent;
+  border-bottom: 3px solid #4E7396;
+  border-radius: 0;
+}
 
-// .nav-pills .nav-link {
-//   color: #39455870;
-// }
+.nav-pills .nav-link {
+  color: #39455870;
+}
+
+.nav-pills .nav-link:hover {
+  color: #394558;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.nav-pills {  
+  margin-bottom: -8px;
+  border-bottom: 1px solid #39455833;
+}
+
+.card_add {
+  height: 202px;
+  display: flex;
+  align-items: center;
+  font-size: 8em;
+}
+
+a.add_button {
+  color: #fff;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1); 
+}
+
+a.add_button:hover {
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.05);
+}
