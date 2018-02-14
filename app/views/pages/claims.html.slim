@@ -1,48 +1,76 @@
 .container
   .row
     .col-md-12
-      h3 tabzzz
+      .entity_information
+        .entity_file_name
+          span Spisová značka případu
+        .entity_number
+          h3 145-T-14/2017
+      nav 
+        .nav.nav-tabs id="nav-tab" role="tablist"
+          a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true" Home</a>
+          a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"Profile
 
-      
-  .row
-    .col-md-6
-      .card#zadost
-        .card-body
-          .card_header
-            .row
-              .col-md-2
-                i.fa.fa-circle
-              .col-md-10
-                .attributes
-                  .name
-                    span Michal Klima
-                  .birth
-                    span 24. 1. 2000
-          .progress_info
-            p Plnění celkového trestu
-            .row
-              .col-md-10
-                .progress
-                  .progress-bar.progress-bar-info.active style="width: 80%" aria-valuemin="0" aria-valuemax="100"
-              .col-md-2#percentage
-                span 80%  
-          .card_footer
-            a href="#" class="card-tools"
-              i.fa.fa-plus
-            a href="#" class="card-tools"
-              i.fa.fa-pencil
-            a href="#" class="card-tools"
-              i.fa.fa-ellipsis-h
+      .tab-content id="nav-tabContent"
+        .tab-pane.fade.show.active id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" ...
+        .tab-pane.fade id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" ...
 
-    .col-md-6
-      .card#trest
-        .card-body
-          h5 class="card-title" Card title
-          h6 class="card-subtitle mb-2 text-muted" Card subtitle
-          p class="card-text" Some quick example text to build on the card title and make up the bulk of the card's content.
-          .progress_info
-            .progress
-              .progress-bar.progress-bar-info.active style="width: 80%" aria-valuemin="0" aria-valuemax="100"
-          a href="#" class="card-link" Card link
-          a href="#" class="card-link" Another link
+  .card_info    
+    .row
+      .col-md-6
+        .card#zadost
+          .card-body
+            .card_header
+              .row
+                .col-md-2
+                  i.fa.fa-circle
+                .col-md-10
+                  .attributes
+                    .name
+                      span Michal Klima
+                    .birth
+                      span 24. 1. 2000
+            .progress_info
+              p Plnění celkového trestu
+              .row
+                .col-md-10
+                  .progress
+                    .progress-bar.progress-bar-info.active style="width: 80%" aria-valuemin="0" aria-valuemax="100"
+                .col-md-2#percentage
+                  span 80%  
+            .card_footer
+              a href="#" class="card-tools"
+                i.fa.fa-plus
+              a href="#" class="card-tools"
+                i.fa.fa-pencil
+              a href="#" class="card-tools"
+                i.fa.fa-ellipsis-h
 
+      .col-md-6
+        .card#trest
+          .card-body
+            .card_header
+              .row
+                .col-md-2
+                  i.fa.fa-circle
+                .col-md-10
+                  .attributes
+                    .name
+                      span Domko Lanko
+                    .birth
+                      span 3. 1. 1990
+            .progress_info
+              p Plnění celkového trestu
+              .row
+                .col-md-10
+                  .progress
+                    .progress-bar.progress-bar-info.active style="width: 30%" aria-valuemin="0" aria-valuemax="100"
+                .col-md-2#percentage
+                  span 30%  
+            .card_footer
+              a href="#" class="card-tools"
+                i.fa.fa-plus
+              a href="#" class="card-tools"
+                i.fa.fa-pencil
+              a href="#" class="card-tools"
+                i.fa.fa-ellipsis-h

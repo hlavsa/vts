@@ -23,6 +23,15 @@ body {
   z-index: 3;
 }
 
+h3 {  
+  margin-bottom: 30px;
+  font-size: 2.250em;
+  line-height: 1.04;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
 /* shared footer a subfooter */
 
 .footer-column {
@@ -127,6 +136,9 @@ li {
   background: #3494E6;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-box-shadow: 0px 60px 20px -30px rgba(52, 148, 230, 0.3);
+  -moz-box-shadow:    0px 60px 20px -30px rgba(52, 148, 230, 0.3);
+  box-shadow:         0px 60px 20px -30px rgba(52, 148, 230, 0.3);
 }
 
 .card#trest {
@@ -135,6 +147,9 @@ li {
   background: #FF5F6D;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-box-shadow: 0px 60px 20px -30px rgba(255, 195, 113, 0.3);
+  -moz-box-shadow:    0px 60px 20px -30px rgba(255, 195, 113, 0.3);
+  box-shadow:         0px 60px 20px -30px rgba(255, 195, 113, 0.3);
 }
 
 .progress {
@@ -164,18 +179,17 @@ li {
 }
 
 .card_footer {
-  margin-top:auto;
-  margin-bottom:auto;
+  margin: auto;
   text-align:center;
 }
 
 .card-tools {
   color: #fff;
-}
-
-.fa {
-  padding-left: 50px;
+  padding-left: 2.5rem;
   font-size: 1.5em;
+  &:first-child {
+    padding-left: 0;
+  }
 }
 
 i.fa.fa-circle {
@@ -186,3 +200,27 @@ i.fa.fa-circle {
 .col-md-2#percentage {
   display: inline-block;
 }
+
+.entity_file_name {
+  margin-bottom: 5px;
+  font-size: 0.875em;
+}
+
+.entity_information {
+  padding-top: 30px;
+}
+
+.card_info {
+  padding-top: 20px;
+}
+
+// .nav-pills .nav-link.active {
+//   color: #394558;
+//   background-color: transparent;
+//   border-bottom: 3px solid #4E7396;
+//   border-radius: 0;
+// }
+
+// .nav-pills .nav-link {
+//   color: #39455870;
+// }
