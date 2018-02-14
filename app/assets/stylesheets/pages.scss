@@ -1,0 +1,73 @@
+body {
+  background-color: #eaf0f5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em; /* 1em = 16px */
+  color: #3b3b3b;
+}
+
+.navbar {
+  padding-bottom: 0.625rem; /* = 10px */
+  background-color: white;
+  padding-left: calc(1440px * (1/24));
+  padding-right: calc(1440px * (1/24));
+}
+
+.style_image {
+  height: 60px;
+  width: 180px;
+}
+
+.navbar-toggle {
+  z-index: 3;
+}
+
+.card#zadost {
+  border: 0px;
+  color: #fff;
+  background: #3494E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.card#trest {
+  border: 0px;
+  color: #fff;
+  background: #FF5F6D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.progress {
+  overflow: visible;
+  background: #f7f7f7;
+  border-radius: 50px;
+}
+
+.progress .progress-bar {
+  border-radius: 50px;
+}
+
+.progress-bar.active {
+  animation: reverse, animate-positive 2s;
+}
+@-webkit-keyframes animate-positive {
+  0% { width: 0%; }
+}
+@keyframes animate-positive {
+  0% { width: 0%; }
+}
+
+.card_footer {
+  margin-top:auto;
+  margin-bottom:auto;
+  text-align:center;
+}
+
+.card-tools {
+  color: #fff;
+}
+
+.fa {
+  font-size: 1.5em;
+  padding-left: 30px;
+}
