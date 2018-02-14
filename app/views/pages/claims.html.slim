@@ -6,14 +6,17 @@
           span Spisová značka případu
         .entity_number
           h3 145-T-14/2017
-      nav 
-        .nav.nav-tabs id="nav-tab" role="tablist"
-          a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true" Home</a>
-          a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"Profile
 
-      .tab-content id="nav-tabContent"
-        .tab-pane.fade.show.active id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" ...
-        .tab-pane.fade id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" ...
+      .tabpanel
+        ul.nav.nav-pills.mb-3 id="pills-tab" role="tablist"
+          li.nav-item
+            a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" Home
+          li.nav-item
+            a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" Profile
+
+        .tab-content id="pills-tabContent" role="tablist"
+          .tab-pane.fade.show.active id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" ...
+          .tab-pane.fade id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" ...
 
   .card_info    
     .row
@@ -39,11 +42,11 @@
                 .col-md-2#percentage
                   span 80%  
             .card_footer
-              a href="#" class="card-tools"
+              a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="add payment"
                 i.fa.fa-plus
-              a href="#" class="card-tools"
+              a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="edit"
                 i.fa.fa-pencil
-              a href="#" class="card-tools"
+              a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="more info payment"
                 i.fa.fa-ellipsis-h
 
       .col-md-6
@@ -68,9 +71,10 @@
                 .col-md-2#percentage
                   span 30%  
             .card_footer
-              a href="#" class="card-tools"
+              a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="add payment"
                 i.fa.fa-plus
-              a href="#" class="card-tools"
+              a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="edit"
                 i.fa.fa-pencil
-              a href="#" class="card-tools"
+              a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="more info payment"
                 i.fa.fa-ellipsis-h
+

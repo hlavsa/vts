@@ -166,9 +166,11 @@ li {
 .progress-bar.active {
   animation: reverse, animate-positive 2s;
 }
+
 @-webkit-keyframes animate-positive {
   0% { width: 0%; }
 }
+
 @keyframes animate-positive {
   0% { width: 0%; }
 }
