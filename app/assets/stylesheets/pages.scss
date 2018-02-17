@@ -12,6 +12,8 @@ body {
   background-color: white;
   padding-left: calc(1440px * (1/24));
   padding-right: calc(1440px * (1/24));
+  border-bottom: 1px solid #3b3b3b30;
+  z-index: 3000;
 }
 
 .style_image {
@@ -264,7 +266,7 @@ i.fa.fa-circle {
 }
 
 .col-md-2#percentage {
-  display: inline-block;
+  margin-top: -5px;
 }
 
 .entity_file_name {
@@ -273,7 +275,7 @@ i.fa.fa-circle {
 }
 
 .entity_information {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .card {
@@ -308,7 +310,7 @@ i.fa.fa-circle {
   height: 202px;
   display: flex;
   align-items: center;
-  font-size: 8em;
+  font-size: 9em;
 }
 
 a.add_button {

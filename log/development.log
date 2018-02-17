@@ -1,0 +1,3394 @@
+Started GET "/" for 127.0.0.1 at 2018-02-14 07:00:02 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (15.6ms)
+Completed 200 OK in 2570ms (Views: 121.7ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-02-14 07:03:32 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (53.4ms)
+  Rendered shared/_navbar.html.slim (2.5ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 22133ms (Views: 22107.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 07:04:09 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 285ms (Views: 251.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 07:28:54 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (281.3ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 9220ms (Views: 9194.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 07:30:30 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 9361ms (Views: 9313.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 07:47:19 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 12470ms (Views: 12445.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 07:47:37 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 281ms (Views: 245.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 07:47:40 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 297ms (Views: 270.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 07:47:42 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 313ms (Views: 285.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:00:44 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 500ms (Views: 461.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:00:45 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 453ms (Views: 423.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:14:20 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 328ms (Views: 300.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:14:35 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 281ms (Views: 255.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:15:05 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7235ms (Views: 7210.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:27:34 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 15877ms (Views: 15842.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:28:30 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 313ms (Views: 297.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:32:42 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 281ms (Views: 241.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:32:57 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7235ms (Views: 7215.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:33:31 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 297ms (Views: 271.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:34:09 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7088ms (Views: 7052.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:35:54 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7173ms (Views: 7138.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:36:45 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 266ms (Views: 253.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:37:09 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 297ms (Views: 275.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:37:14 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 281ms (Views: 261.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:37:38 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 297ms (Views: 277.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:38:05 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7204ms (Views: 7178.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:38:29 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7329ms (Views: 7304.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:38:46 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7563ms (Views: 7539.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:39:19 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7673ms (Views: 7648.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:39:57 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7626ms (Views: 7590.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:40:22 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 281ms (Views: 265.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:40:58 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (31.3ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7563ms (Views: 7529.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:42:05 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 344ms (Views: 304.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:42:30 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7219ms (Views: 7193.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:43:01 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7189ms (Views: 7172.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:43:43 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (31.3ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7766ms (Views: 7744.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:44:24 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7329ms (Views: 7291.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:44:52 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 359ms (Views: 327.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:45:53 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 266ms (Views: 234.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 09:46:06 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 266ms (Views: 233.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 10:02:32 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7188ms (Views: 7173.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 10:03:25 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 313ms (Views: 282.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 10:05:43 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 10153ms (Views: 10124.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 10:20:37 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 422ms (Views: 376.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 10:30:14 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7751ms (Views: 7719.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 10:31:25 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 281ms (Views: 249.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 10:31:39 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 266ms (Views: 232.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 10:31:50 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (31.3ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7455ms (Views: 7441.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 10:32:34 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 281ms (Views: 248.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 11:59:09 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (125.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 469ms (Views: 428.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:00:12 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 313ms (Views: 282.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:00:37 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (31.3ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 281ms (Views: 259.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:01:30 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (31.3ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 344ms (Views: 327.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:03:15 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (62.5ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7655ms (Views: 7641.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:03:56 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 313ms (Views: 275.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:07:31 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 328ms (Views: 295.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:08:12 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 313ms (Views: 280.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:08:32 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 297ms (Views: 263.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:09:39 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 266ms (Views: 246.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:10:44 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (46.9ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7655ms (Views: 7632.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:12:28 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7127ms (Views: 7105.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:12:42 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7283ms (Views: 7260.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:14:07 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7063ms (Views: 7033.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:14:34 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7421ms (Views: 7373.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:15:07 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7251ms (Views: 7226.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:15:28 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7097ms (Views: 7086.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:15:43 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7176ms (Views: 7152.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:17:33 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7321ms (Views: 7303.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:17:50 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7189ms (Views: 7163.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:18:03 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7420ms (Views: 7391.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:20:42 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7251ms (Views: 7223.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:21:04 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (31.3ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7188ms (Views: 7168.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:21:28 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7304ms (Views: 7278.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:21:43 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7188ms (Views: 7162.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:36:30 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 313ms (Views: 270.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:38:34 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7545ms (Views: 7510.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:39:52 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7735ms (Views: 7718.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:40:08 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 328ms (Views: 305.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:40:26 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (93.8ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 8167ms (Views: 8134.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:41:38 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7563ms (Views: 7545.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:42:55 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7685ms (Views: 7667.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:43:43 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 297ms (Views: 273.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:44:02 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 344ms (Views: 307.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:44:57 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 297ms (Views: 271.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:46:17 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 266ms (Views: 248.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:48:31 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7130ms (Views: 7107.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:48:45 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7298ms (Views: 7271.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:49:23 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 266ms (Views: 248.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:50:17 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7156ms (Views: 7138.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:50:41 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7142ms (Views: 7110.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:51:33 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7454ms (Views: 7423.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:51:58 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7248ms (Views: 7225.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:52:15 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7152ms (Views: 7123.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:53:42 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 8544ms (Views: 8530.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:54:23 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 8381ms (Views: 8360.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:55:04 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7190ms (Views: 7167.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:55:51 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7391ms (Views: 7369.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:56:17 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 281ms (Views: 261.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:56:39 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7094ms (Views: 7063.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:57:02 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:57:07 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (46.9ms)
+  Rendered shared/_footer_bar.html.slim (3.8ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 10315ms (Views: 10277.5ms)
+
+
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 9100ms (Views: 9060.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:57:20 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 313ms (Views: 284.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:57:35 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7455ms (Views: 7426.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:58:46 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7229ms (Views: 7195.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:59:15 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7408ms (Views: 7373.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 12:59:41 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7188ms (Views: 7165.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 13:01:02 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7083ms (Views: 7053.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 13:01:32 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7298ms (Views: 7282.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 13:02:08 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7173ms (Views: 7153.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 13:09:01 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7053ms (Views: 7016.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 13:12:26 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (46.9ms)
+Completed 200 OK in 6969ms (Views: 6958.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 13:14:41 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (31.3ms)
+Completed 200 OK in 7016ms (Views: 6983.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 13:14:59 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 6936ms (Views: 6909.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 13:15:40 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (31.3ms)
+Completed 200 OK in 344ms (Views: 315.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 13:15:49 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (31.3ms)
+Completed 200 OK in 297ms (Views: 270.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:23:38 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 11373ms (Views: 11331.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:23:55 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 266ms (Views: 240.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:25:29 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 266ms (Views: 242.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:25:54 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 266ms (Views: 243.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:26:40 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 250ms (Views: 229.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:27:18 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (31.3ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7313ms (Views: 7283.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:28:54 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7044ms (Views: 7026.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:30:11 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7276ms (Views: 7257.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:30:50 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7454ms (Views: 7426.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:31:42 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7404ms (Views: 7391.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:32:05 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7369ms (Views: 7352.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:32:35 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 6891ms (Views: 6879.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:32:56 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7113ms (Views: 7085.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:38:57 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7574ms (Views: 7544.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:41:53 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7267ms (Views: 7237.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:42:55 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7138ms (Views: 7109.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:44:57 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 6997ms (Views: 6983.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:46:06 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (31.3ms)
+Completed 200 OK in 13394ms (Views: 13371.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:46:48 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 8157ms (Views: 8133.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:48:19 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7282ms (Views: 7271.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:48:42 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7256ms (Views: 7245.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:50:13 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7758ms (Views: 7729.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:50:54 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.2ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 6947ms (Views: 6911.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:51:14 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7416ms (Views: 7390.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:51:51 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (31.3ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 6907ms (Views: 6882.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:52:18 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7063ms (Views: 7029.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:52:37 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 6954ms (Views: 6933.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:53:18 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 6907ms (Views: 6884.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:53:46 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7110ms (Views: 7094.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:54:54 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (31.3ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 6908ms (Views: 6883.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:55:13 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 6891ms (Views: 6858.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 14:56:06 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7094ms (Views: 7072.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:07:37 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 328ms (Views: 286.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:08:11 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.4ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 344ms (Views: 317.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:08:20 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 313ms (Views: 280.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:24:35 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.4ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 10980ms (Views: 10914.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:25:15 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (31.3ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7063ms (Views: 7048.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:25:43 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (31.3ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7079ms (Views: 7043.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:26:27 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 6939ms (Views: 6901.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:26:59 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 6882ms (Views: 6873.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:27:12 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7009ms (Views: 6979.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:27:30 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 6954ms (Views: 6919.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:28:13 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7009ms (Views: 6985.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:28:40 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (31.3ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7270ms (Views: 7260.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:29:33 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 297ms (Views: 277.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:30:36 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7048ms (Views: 7013.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:39:05 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (93.8ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7282ms (Views: 7234.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:39:13 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 344ms (Views: 334.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:39:19 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 297ms (Views: 277.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:41:58 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 6882ms (Views: 6871.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:52:42 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 344ms (Views: 302.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:53:43 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.8ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 8292ms (Views: 8258.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:55:33 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (62.5ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 391ms (Views: 377.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:55:45 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 297ms (Views: 267.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:57:45 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7391ms (Views: 7360.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:58:16 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7079ms (Views: 7043.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:58:57 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7051ms (Views: 7029.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:59:16 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7251ms (Views: 7216.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:59:35 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 6766ms (Views: 6751.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 15:59:49 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 344ms (Views: 313.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:00:45 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7407ms (Views: 7378.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:01:25 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7009ms (Views: 6984.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:01:56 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7081ms (Views: 7062.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:02:06 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 14098ms (Views: 14039.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:06:21 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7411ms (Views: 7391.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:06:35 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 281ms (Views: 263.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:07:07 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (0.0ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 6969ms (Views: 6937.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:11:15 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 297ms (Views: 271.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:11:19 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.8ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 328ms (Views: 291.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:11:54 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7098ms (Views: 7058.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:12:06 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 359ms (Views: 316.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:12:30 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 297ms (Views: 272.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:12:32 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 484ms (Views: 456.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:13:41 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 313ms (Views: 293.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:13:45 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 328ms (Views: 299.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:18:51 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 281ms (Views: 246.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:18:55 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (78.1ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 406ms (Views: 378.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:19:53 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 297ms (Views: 270.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:20:27 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 281ms (Views: 249.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:20:31 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 313ms (Views: 278.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:20:55 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (31.3ms)
+Completed 200 OK in 313ms (Views: 276.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:20:58 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 359ms (Views: 334.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:21:02 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 281ms (Views: 262.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:21:44 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.2ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 313ms (Views: 294.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:21:47 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 375ms (Views: 346.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:24:24 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 359ms (Views: 323.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:24:28 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 289ms (Views: 263.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 16:24:40 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.2ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 391ms (Views: 351.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:34:03 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (2447.7ms)
+  Rendered shared/_navbar.html.slim (398.7ms)
+  Rendered shared/_footer_bar.html.slim (317.4ms)
+  Rendered shared/_footer.html.slim (212.2ms)
+Completed 200 OK in 8867ms (Views: 8566.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:34:27 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (669.2ms)
+  Rendered shared/_navbar.html.slim (146.8ms)
+  Rendered shared/_footer_bar.html.slim (332.4ms)
+  Rendered shared/_footer.html.slim (190.3ms)
+Completed 200 OK in 1896ms (Views: 1871.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:35:37 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (249.9ms)
+  Rendered shared/_navbar.html.slim (6.5ms)
+  Rendered shared/_footer_bar.html.slim (102.3ms)
+  Rendered shared/_footer.html.slim (4.0ms)
+Completed 200 OK in 832ms (Views: 769.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:36:29 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (156.3ms)
+  Rendered shared/_navbar.html.slim (61.5ms)
+  Rendered shared/_footer_bar.html.slim (6.0ms)
+  Rendered shared/_footer.html.slim (4.5ms)
+Completed 200 OK in 542ms (Views: 515.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:36:56 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (214.2ms)
+  Rendered shared/_navbar.html.slim (7.0ms)
+  Rendered shared/_footer_bar.html.slim (5.0ms)
+  Rendered shared/_footer.html.slim (3.0ms)
+Completed 200 OK in 481ms (Views: 457.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:37:52 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (225.9ms)
+  Rendered shared/_navbar.html.slim (7.5ms)
+  Rendered shared/_footer_bar.html.slim (6.5ms)
+  Rendered shared/_footer.html.slim (3.5ms)
+Completed 200 OK in 545ms (Views: 522.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:37:59 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (72.0ms)
+  Rendered shared/_navbar.html.slim (7.5ms)
+  Rendered shared/_footer_bar.html.slim (6.0ms)
+  Rendered shared/_footer.html.slim (3.5ms)
+Completed 200 OK in 532ms (Views: 506.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:38:04 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (81.7ms)
+  Rendered shared/_navbar.html.slim (26.2ms)
+  Rendered shared/_footer_bar.html.slim (5.0ms)
+  Rendered shared/_footer.html.slim (4.0ms)
+Completed 200 OK in 404ms (Views: 379.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:38:08 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (268.0ms)
+  Rendered shared/_navbar.html.slim (6.5ms)
+  Rendered shared/_footer_bar.html.slim (5.0ms)
+  Rendered shared/_footer.html.slim (193.7ms)
+Completed 200 OK in 798ms (Views: 773.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:40:03 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (136.9ms)
+  Rendered shared/_navbar.html.slim (21.0ms)
+  Rendered shared/_footer_bar.html.slim (6.5ms)
+  Rendered shared/_footer.html.slim (4.0ms)
+Completed 200 OK in 27779ms (Views: 27756.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:44:07 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (44.4ms)
+  Rendered shared/_navbar.html.slim (16.5ms)
+  Rendered shared/_footer_bar.html.slim (9.0ms)
+  Rendered shared/_footer.html.slim (4.0ms)
+Completed 200 OK in 9181ms (Views: 9157.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:52:20 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.0ms)
+  Rendered shared/_navbar.html.slim (7.0ms)
+  Rendered shared/_footer_bar.html.slim (6.0ms)
+  Rendered shared/_footer.html.slim (4.5ms)
+Completed 200 OK in 421ms (Views: 393.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:53:31 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (35.0ms)
+  Rendered shared/_navbar.html.slim (6.0ms)
+  Rendered shared/_footer_bar.html.slim (4.5ms)
+  Rendered shared/_footer.html.slim (3.5ms)
+Completed 200 OK in 8730ms (Views: 8704.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:53:58 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (17.0ms)
+  Rendered shared/_navbar.html.slim (12.0ms)
+  Rendered shared/_footer_bar.html.slim (6.5ms)
+  Rendered shared/_footer.html.slim (4.0ms)
+Completed 200 OK in 8945ms (Views: 8914.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:54:29 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.6ms)
+  Rendered shared/_navbar.html.slim (9.0ms)
+  Rendered shared/_footer_bar.html.slim (7.5ms)
+  Rendered shared/_footer.html.slim (24.7ms)
+Completed 200 OK in 8309ms (Views: 8285.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:54:53 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (33.0ms)
+  Rendered shared/_navbar.html.slim (6.5ms)
+  Rendered shared/_footer_bar.html.slim (5.0ms)
+  Rendered shared/_footer.html.slim (3.0ms)
+Completed 200 OK in 8652ms (Views: 8627.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:56:06 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (16.5ms)
+  Rendered shared/_navbar.html.slim (20.0ms)
+  Rendered shared/_footer_bar.html.slim (10.5ms)
+  Rendered shared/_footer.html.slim (3.0ms)
+Completed 200 OK in 8160ms (Views: 8138.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:57:31 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (58.5ms)
+  Rendered shared/_navbar.html.slim (9.5ms)
+  Rendered shared/_footer_bar.html.slim (9.0ms)
+  Rendered shared/_footer.html.slim (3.5ms)
+Completed 200 OK in 8137ms (Views: 8113.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:58:02 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (45.5ms)
+  Rendered shared/_navbar.html.slim (9.5ms)
+  Rendered shared/_footer_bar.html.slim (6.0ms)
+  Rendered shared/_footer.html.slim (3.5ms)
+Completed 200 OK in 8076ms (Views: 8053.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:58:26 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (21.5ms)
+  Rendered shared/_navbar.html.slim (9.5ms)
+  Rendered shared/_footer_bar.html.slim (7.0ms)
+  Rendered shared/_footer.html.slim (6.0ms)
+Completed 200 OK in 7695ms (Views: 7669.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 19:58:49 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (34.5ms)
+  Rendered shared/_navbar.html.slim (6.0ms)
+  Rendered shared/_footer_bar.html.slim (4.5ms)
+  Rendered shared/_footer.html.slim (3.0ms)
+Completed 200 OK in 7703ms (Views: 7676.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:04:56 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (54.5ms)
+Completed 500 Internal Server Error in 1254ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'react' with type 'application/javascript'
+Checked in these paths: 
+  C:/Users/hlavs/Documents/rails/vts/app/assets/config
+  C:/Users/hlavs/Documents/rails/vts/app/assets/images
+  C:/Users/hlavs/Documents/rails/vts/app/assets/javascripts
+  C:/Users/hlavs/Documents/rails/vts/app/assets/stylesheets
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/font-awesome-rails-4.7.0.3/app/assets/fonts
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/font-awesome-rails-4.7.0.3/app/assets/stylesheets
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/actioncable-5.1.4/lib/assets/compiled
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/actionview-5.1.4/lib/assets/compiled
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  C:/Users/hlavs/Documents/rails/vts/node_modules
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/popper_js-1.12.9/assets/javascripts
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/bootstrap-4.0.0/assets/stylesheets
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/bootstrap-4.0.0/assets/javascripts):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/assets/javascripts/application.js:18
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1201617071_144337260'
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:05:24 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (26.0ms)
+Completed 500 Internal Server Error in 344ms
+
+
+  
+ActionView::Template::Error (couldn't find file 'components' with type 'application/javascript'
+Checked in these paths: 
+  C:/Users/hlavs/Documents/rails/vts/app/assets/config
+  C:/Users/hlavs/Documents/rails/vts/app/assets/images
+  C:/Users/hlavs/Documents/rails/vts/app/assets/javascripts
+  C:/Users/hlavs/Documents/rails/vts/app/assets/stylesheets
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/font-awesome-rails-4.7.0.3/app/assets/fonts
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/font-awesome-rails-4.7.0.3/app/assets/stylesheets
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/actioncable-5.1.4/lib/assets/compiled
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/actionview-5.1.4/lib/assets/compiled
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  C:/Users/hlavs/Documents/rails/vts/node_modules
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/popper_js-1.12.9/assets/javascripts
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/bootstrap-4.0.0/assets/stylesheets
+  C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/bootstrap-4.0.0/assets/javascripts):
+     5:     <%= csrf_meta_tags %>
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+     9:   </head>
+    10: 
+    11:   <body>
+  
+app/assets/javascripts/application.js:18
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___1201617071_165074040'
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:05:42 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (20.5ms)
+  Rendered shared/_navbar.html.slim (10.0ms)
+  Rendered shared/_footer_bar.html.slim (10.0ms)
+  Rendered shared/_footer.html.slim (6.0ms)
+Completed 200 OK in 1877ms (Views: 1853.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:10:01 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (208.8ms)
+  Rendered shared/_navbar.html.slim (36.7ms)
+  Rendered shared/_footer_bar.html.slim (6.5ms)
+  Rendered shared/_footer.html.slim (4.5ms)
+Completed 200 OK in 22385ms (Views: 22347.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:12:45 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7658ms (Views: 7637.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:13:53 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7204ms (Views: 7171.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:14:35 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 359ms (Views: 335.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:15:29 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 375ms (Views: 353.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:17:23 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.5ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7095ms (Views: 7076.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:17:56 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7110ms (Views: 7094.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:19:23 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7220ms (Views: 7188.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:20:14 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7391ms (Views: 7368.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:20:37 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7001ms (Views: 6963.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:21:15 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7048ms (Views: 7021.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:21:41 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 6907ms (Views: 6894.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:21:54 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.4ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7001ms (Views: 6982.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:23:07 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7173ms (Views: 7132.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:23:40 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7191ms (Views: 7163.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:24:00 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 6921ms (Views: 6887.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:24:14 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7188ms (Views: 7157.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:24:31 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (78.1ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 594ms (Views: 559.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:24:50 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 344ms (Views: 316.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:25:28 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7032ms (Views: 7012.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:27:56 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7360ms (Views: 7324.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:28:34 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 313ms (Views: 289.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:29:43 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (62.5ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 359ms (Views: 331.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:30:02 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (93.8ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 422ms (Views: 389.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:30:50 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7345ms (Views: 7321.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:31:00 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 406ms (Views: 360.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:33:35 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 313ms (Views: 287.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:33:47 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (78.1ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 406ms (Views: 376.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:34:20 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 313ms (Views: 291.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:35:08 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7017ms (Views: 6992.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:35:52 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7594ms (Views: 7557.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:36:10 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7423ms (Views: 7403.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:36:27 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7266ms (Views: 7248.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:42:56 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (93.8ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 12925ms (Views: 12892.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:43:17 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 10668ms (Views: 10619.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:43:31 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.2ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 10514ms (Views: 10486.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:44:27 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 344ms (Views: 318.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:44:42 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 328ms (Views: 293.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:44:50 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 422ms (Views: 402.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:46:17 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 359ms (Views: 329.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:47:07 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7173ms (Views: 7148.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:47:21 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.2ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7033ms (Views: 7003.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:47:36 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7016ms (Views: 6996.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:47:50 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 7298ms (Views: 7260.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:48:10 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (78.1ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 531ms (Views: 507.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:48:15 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 375ms (Views: 348.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:48:41 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7188ms (Views: 7158.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:49:37 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7251ms (Views: 7233.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:49:49 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 313ms (Views: 286.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:50:03 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7016ms (Views: 6997.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:50:16 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (62.5ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7142ms (Views: 7110.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:51:47 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 344ms (Views: 318.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:52:09 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (62.5ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 344ms (Views: 320.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:53:03 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7016ms (Views: 6985.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:54:12 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 8892ms (Views: 8862.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:54:35 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.2ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 453ms (Views: 388.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:54:48 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 8017ms (Views: 7995.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:55:30 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 8142ms (Views: 8131.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:56:03 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7937ms (Views: 7912.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:57:56 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7564ms (Views: 7540.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 20:59:19 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 8032ms (Views: 8015.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:00:22 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7016ms (Views: 6990.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:01:07 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7329ms (Views: 7311.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:01:59 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (15.6ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7141ms (Views: 7104.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:03:00 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7094ms (Views: 7079.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:22:15 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (7252.0ms)
+  Rendered shared/_navbar.html.slim (101.6ms)
+  Rendered shared/_footer_bar.html.slim (7.0ms)
+  Rendered shared/_footer.html.slim (11.0ms)
+Completed 200 OK in 59627ms (Views: 58971.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:35:47 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (2403.0ms)
+  Rendered shared/_navbar.html.slim (41.7ms)
+  Rendered shared/_footer_bar.html.slim (23.8ms)
+  Rendered shared/_footer.html.slim (3.5ms)
+Completed 200 OK in 51220ms (Views: 50839.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:37:01 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (39.0ms)
+  Rendered shared/_navbar.html.slim (9.0ms)
+  Rendered shared/_footer_bar.html.slim (6.0ms)
+  Rendered shared/_footer.html.slim (3.5ms)
+Completed 200 OK in 437ms (Views: 410.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:43:59 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (309.2ms)
+  Rendered shared/_navbar.html.slim (35.5ms)
+  Rendered shared/_footer_bar.html.slim (20.0ms)
+  Rendered shared/_footer.html.slim (41.0ms)
+Completed 200 OK in 1093ms (Views: 1055.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:44:25 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (65.1ms)
+  Rendered shared/_navbar.html.slim (59.8ms)
+  Rendered shared/_footer_bar.html.slim (6.5ms)
+  Rendered shared/_footer.html.slim (5.0ms)
+Completed 200 OK in 498ms (Views: 453.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:44:42 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (54.5ms)
+  Rendered shared/_navbar.html.slim (10.5ms)
+  Rendered shared/_footer_bar.html.slim (41.0ms)
+  Rendered shared/_footer.html.slim (3.5ms)
+Completed 200 OK in 561ms (Views: 517.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:45:43 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (94.1ms)
+  Rendered shared/_navbar.html.slim (11.5ms)
+  Rendered shared/_footer_bar.html.slim (18.5ms)
+  Rendered shared/_footer.html.slim (6.5ms)
+Completed 200 OK in 545ms (Views: 512.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:46:13 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (64.1ms)
+  Rendered shared/_navbar.html.slim (11.0ms)
+  Rendered shared/_footer_bar.html.slim (11.0ms)
+  Rendered shared/_footer.html.slim (5.0ms)
+Completed 200 OK in 13965ms (Views: 13935.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:47:52 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (53.5ms)
+  Rendered shared/_navbar.html.slim (7.5ms)
+  Rendered shared/_footer_bar.html.slim (12.5ms)
+  Rendered shared/_footer.html.slim (3.0ms)
+Completed 200 OK in 11618ms (Views: 11589.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:48:26 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (37.0ms)
+  Rendered shared/_navbar.html.slim (9.5ms)
+  Rendered shared/_footer_bar.html.slim (5.5ms)
+  Rendered shared/_footer.html.slim (4.0ms)
+Completed 200 OK in 11669ms (Views: 11633.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:48:53 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (43.5ms)
+  Rendered shared/_navbar.html.slim (10.0ms)
+  Rendered shared/_footer_bar.html.slim (9.5ms)
+  Rendered shared/_footer.html.slim (6.0ms)
+Completed 200 OK in 10441ms (Views: 10398.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:49:16 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (44.6ms)
+  Rendered shared/_navbar.html.slim (10.0ms)
+  Rendered shared/_footer_bar.html.slim (8.5ms)
+  Rendered shared/_footer.html.slim (3.5ms)
+Completed 200 OK in 9820ms (Views: 9790.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:50:18 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (30.5ms)
+  Rendered shared/_navbar.html.slim (7.5ms)
+  Rendered shared/_footer_bar.html.slim (7.5ms)
+  Rendered shared/_footer.html.slim (5.5ms)
+Completed 200 OK in 10394ms (Views: 10367.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:50:41 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (43.5ms)
+  Rendered shared/_navbar.html.slim (8.0ms)
+  Rendered shared/_footer_bar.html.slim (5.0ms)
+  Rendered shared/_footer.html.slim (3.5ms)
+Completed 200 OK in 9476ms (Views: 9449.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:51:28 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (92.8ms)
+  Rendered shared/_navbar.html.slim (10.0ms)
+  Rendered shared/_footer_bar.html.slim (14.5ms)
+  Rendered shared/_footer.html.slim (4.0ms)
+Completed 200 OK in 11773ms (Views: 11739.4ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 21:51:51 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (49.0ms)
+  Rendered shared/_navbar.html.slim (24.5ms)
+  Rendered shared/_footer_bar.html.slim (33.6ms)
+  Rendered shared/_footer.html.slim (7.0ms)
+Completed 200 OK in 13471ms (Views: 13434.3ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 22:02:55 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (250.0ms)
+Completed 500 Internal Server Error in 469ms
+
+
+  
+ActionView::Template::Error (Malformed indentation
+  C:/Users/hlavs/Documents/rails/vts/app/views/pages/claims.html.slim, Line 155, Column 3
+    nav.col-md-2.d-none.d-md-block.sidebar
+    ^
+):
+    152:       
+    153: 
+    154: 
+    155:    nav.col-md-2.d-none.d-md-block.sidebar
+    156:       .sidebar-sticky
+    157:         h2 ko
+  
+app/views/pages/claims.html.slim:155
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 22:03:48 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (312.5ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 1547ms (Views: 1512.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 22:03:58 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (234.4ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 10912ms (Views: 10883.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 22:05:54 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 516ms (Views: 491.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 22:06:06 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 375ms (Views: 353.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 22:21:17 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (125.0ms)
+  Rendered shared/_navbar.html.slim (31.3ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 609ms (Views: 579.2ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 22:22:34 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (125.0ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 8610ms (Views: 8584.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 22:32:33 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (109.4ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 10345ms (Views: 10302.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 22:43:23 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+Completed 500 Internal Server Error in 156ms
+
+
+  
+ActionView::Template::Error (Malformed indentation
+  C:/Users/hlavs/Documents/rails/vts/app/views/pages/claims.html.slim, Line 4, Column 3
+    .sidebar-wrapper
+    ^
+):
+    1: .toggled#wrapper
+    2:   .container-fluid
+    3:     <!-- Sidebar -->
+    4:    .sidebar-wrapper
+    5:       ul.sidebar-nav
+    6:         li.sidebar-brand
+    7:         li.sidebar-brand
+  
+app/views/pages/claims.html.slim:4
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 22:44:22 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (109.4ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 594ms (Views: 569.8ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 22:54:42 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (1127.1ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (31.3ms)
+  Rendered shared/_footer.html.slim (31.3ms)
+Completed 200 OK in 2065ms (Views: 2026.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 23:17:14 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (109.4ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 10048ms (Views: 10017.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 23:18:42 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.4ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 328ms (Views: 304.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 23:19:06 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7126ms (Views: 7101.6ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 23:20:57 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7110ms (Views: 7095.9ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 23:22:57 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 328ms (Views: 314.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 23:31:47 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 344ms (Views: 328.7ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 23:32:09 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (62.5ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 375ms (Views: 341.0ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 23:34:02 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7516ms (Views: 7487.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 23:34:20 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 297ms (Views: 278.1ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 23:36:44 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (31.3ms)
+  Rendered shared/_navbar.html.slim (0.0ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7376ms (Views: 7353.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-14 23:37:49 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (46.9ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (15.6ms)
+  Rendered shared/_footer.html.slim (0.0ms)
+Completed 200 OK in 7079ms (Views: 7051.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 13:49:07 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (46.9ms)
+Completed 200 OK in 2094ms (Views: 189.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-15 13:49:15 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 78ms (Views: 47.5ms)
+
+
+Started GET "/pages/claims" for 127.0.0.1 at 2018-02-15 13:49:26 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (62.5ms)
+  Rendered shared/_navbar.html.slim (15.6ms)
+  Rendered shared/_footer_bar.html.slim (0.0ms)
+  Rendered shared/_footer.html.slim (15.6ms)
+Completed 200 OK in 2860ms (Views: 2829.6ms)
+
+
