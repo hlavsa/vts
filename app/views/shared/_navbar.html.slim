@@ -1,6 +1,25 @@
-nav.navbar.navbar-light.navbar-expand.bg-faded
-      a. [href="/" class="navbar-brand.mr-0.mr-md-2"]
-        = image_tag('obeti-logo.svg', class: 'style_image')
-      button.navbar-toggler [type="button" data-toggle="collapse" data-target="#collapsingNavbar3"]
-        span.navbar-toggler-icon
-      .navbar-collapse.collapse id="collapsingNavbar3"
+header.header
+  nav class="navbar"
+    .container-fluid
+      .navbar-holder.d-flex.align-items-center.justify-content-between    
+        .navbar-header
+          a id="toggle-btn" class="menu-btn active" href="#"
+            = image_tag('menu.svg', class: 'menu_image')
+        ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center"
+          li class="nav-item dropdown" style=" border-left: 1px solid #3b3b3b20; padding-right: 10px; padding-left: 5px;"
+            a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+              = image_tag('bell.svg', class: 'style_image')
+              span class="badge bg-red" 12
+            div class="dropdown-menu" aria-labelledby="navbarDropdown"
+              a class="dropdown-item" href="#" Action
+              a class="dropdown-item" href="#" Another action
+              a class="dropdown-item" href="#" Vsechno
+
+          li class="nav-item dropdown" style=" border-left: 1px solid #3b3b3b20;"
+            a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #3b3b3b"
+              = image_tag('lady.jpg', class: 'user_image')
+              'Severino josemaria
+            div class="dropdown-menu" aria-labelledby="navbarDropdown"
+              a class="dropdown-item" href="#" Action
+              a class="dropdown-item" href="#" Another action
+              a class="dropdown-item" href="#" Vsechno

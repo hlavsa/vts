@@ -1,2 +1,14 @@
-h1 Pages#home
-p Find me in app/views/pages/home.html.slim
+.page-content.d-flex.align-items-stretch style="height: 100vh;"
+  nav.side-navbar.shrinked
+    ul.list-unstyled
+      li.active
+        a href="#"
+          = image_tag('home.svg', class: 'menu_image') 
+          p Domu
+      li
+        a href="#"
+          = image_tag('folder.svg', class: 'menu_image') 
+          p Spis
+
+  .content-inner
+    h1 MEH
