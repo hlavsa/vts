@@ -56,3 +56,5 @@ gem 'bootstrap', '~> 4.0.0'
 gem 'slim-rails'
 
 gem 'font-awesome-rails'
+
+gem 'chart-js-rails'

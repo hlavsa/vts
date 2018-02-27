@@ -1,14 +1,175 @@
 .page-content.d-flex.align-items-stretch style="height: 100vh;"
   nav.side-navbar.shrinked
     ul.list-unstyled
-      li.active
+      li.sidemenu-items.active
         a href="#"
-          = image_tag('home.svg', class: 'menu_image') 
-          p Domu
-      li
+          = image_tag('home.svg', class: 'sidebar_image') 
+          
+      li.sidemenu-items
         a href="#"
-          = image_tag('folder.svg', class: 'menu_image') 
-          p Spis
-
+          = image_tag('folder.svg', class: 'sidebar_image') 
+      li.sidemenu-items
+        a href="#"
+          = image_tag('activity.svg', class: 'sidebar_image') 
   .content-inner
-    h1 MEH
+    .row style="margin-left: 30px;"
+      .col-md-10
+        .entity_information
+          .row
+            .col-md-7
+              .entity_file_name
+                span Spisová značka případu
+              .entity_number
+                h3 145-T-14/2017
+            .col-md-5
+              .row
+                .col-6
+                  .float-right
+                    a class="btn add-new mr-3 d-flex justify-content-center align-items-center" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"
+                      .add
+                        span Add new
+                        span.btn-circle-inner
+                          = image_tag('plus.svg', class: 'add_image')
+
+                .col-6
+                  .float-left
+                    a class="btn btn-circle mr-3 d-flex justify-content-center align-items-center" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"
+                      = image_tag('download.svg', class: 'sidebar_image')
+
+        .tabpanel
+          ul.nav.nav-pills id="pills-tab" role="tablist"
+            li.nav-item
+              a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" Žádosti
+            li.nav-item
+              a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" Tresty
+
+          .tab-content id="pills-tabContent" role="tablist"
+            .tab-pane.fade.show.active id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+              .card_info    
+                .row
+                  .col-md-6
+                    .card#appeal
+                      .card-body
+                        .card_header
+                          .user-face
+                            = image_tag('lady.jpg', class: 'user_image')
+                          .attributes
+                            .name
+                              span Domko Lanko
+                            .birth
+                              span 3. 1. 1990
+                        .progress_info                          
+                          .row
+                            .col-6
+                              .progress
+                                .progress-bar.progress-bar-info.active style="width: 30%" aria-valuemin="0" aria-valuemax="100"
+                              span 30 %
+                            .col-6#percentage
+                              span Celkova castka
+                              span 140 000 
+                        .card_footer
+                          .row
+                            .col-6 style="border-right: 1px solid #3b3b3b20;"
+                              a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="add payment"
+                                = image_tag('edit-3.svg', class: 'menu_image')
+                                'Editovat
+                          
+                            .col-6
+                              a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="edit"
+                                = image_tag('user.svg', class: 'menu_image')
+                                'Profil
+
+                  .col-md-6
+                    .card#appeal
+                      .card-body
+                        .card_header
+                          .user-face
+                            = image_tag('lady.jpg', class: 'user_image')
+                          .attributes
+                            .name
+                              span Domko Lanko
+                            .birth
+                              span 3. 1. 1990
+                        .progress_info                          
+                          .row
+                            .col-6
+                              .progress
+                                .progress-bar.progress-bar-info.active style="width: 30%" aria-valuemin="0" aria-valuemax="100"
+                              span 30 %
+                            .col-6#percentage
+                              span Celkova castka
+                              span 140 000 
+                        .card_footer
+                          .row
+                            .col-6 style="border-right: 1px solid #3b3b3b20;"
+                              a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="add payment"
+                                = image_tag('edit-3.svg', class: 'menu_image')
+                                'Editovat
+                          
+                            .col-6
+                              a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="edit"
+                                = image_tag('user.svg', class: 'menu_image')
+                                'Profil
+
+            .tab-pane.fade id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+              .card_info    
+                .row
+                  .col-md-6
+                    .card#debt
+                      .card-body
+                        .card_header
+                          .row
+                            .col-md-2
+                              i.fa.fa-circle
+                            .col-md-10
+                              .attributes
+                                .name
+                                  span Michal Klima
+                                .birth
+                                  span 24. 1. 2000
+                        .progress_info
+                          p Plnění celkového trestu
+                          .row
+                            .col-md-10
+                              .progress
+                                .progress-bar.progress-bar-info.active style="width: 80%" aria-valuemin="0" aria-valuemax="100"
+                            .col-md-2#percentage
+                              span 80%  
+                        .card_footer
+                          a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="add payment"
+                            i.fa.fa-plus
+                          a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="edit"
+                            i.fa.fa-pencil
+                          a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="more info payment"
+                            i.fa.fa-ellipsis-h
+
+                  .col-md-6
+                    .card#debt
+                      .card-body
+                        .card_header
+                          .row
+                            .col-md-2
+                              i.fa.fa-circle
+                            .col-md-10
+                              .attributes
+                                .name
+                                  span Domko Lanko
+                                .birth
+                                  span 3. 1. 1990
+                        .progress_info
+                          p Plnění celkového trestu
+                          .row
+                            .col-md-10
+                              .progress
+                                .progress-bar.progress-bar-info.active style="width: 30%" aria-valuemin="0" aria-valuemax="100"
+                            .col-md-2#percentage
+                              span 30%  
+                        .card_footer
+                          a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="add payment"
+                            i.fa.fa-plus
+                          a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="edit"
+                            i.fa.fa-pencil
+                          a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="more info payment"
+                            i.fa.fa-ellipsis-h
+      
+      .col-md-2
