@@ -55,7 +55,7 @@ h3 {
   background-color: white;
   border-bottom: 1px solid #3b3b3b20;
   z-index: 3000;
-  padding: 10px 0 10px 0;
+  padding: .1rem 0;
   position: relative;
 }
 
@@ -69,8 +69,7 @@ h3 {
 
 .brand_image {
   margin-right: 0;
-  width: 35px;
-  height: 35px;
+  width: 35%;
 }
 
 .style_image {
@@ -140,7 +139,50 @@ nav.navbar .nav-item > a {
 }
 
 .nav-link {
-  padding: 0.5rem 1rem;
+  padding: 0 1rem;
+}
+
+nav.navbar .search-box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+  background: #fff;
+  z-index: 12;
+  border-radius: 0;
+  display: none;
+}
+
+.dismiss {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  color: #999;
+}
+
+nav.navbar .nav-item > a {
+  position: relative;
+}
+nav.navbar a {
+  color: inherit;
+}
+
+nav.navbar .search-box form {
+  height: 100%;
+}
+
+nav.navbar .search-box form input {
+  height: 100%;
+  border: none;
+  padding: 20px;
 }
 
 .ring {
@@ -908,6 +950,10 @@ h4#entity_info {
   font-weight: 700;
 }
 
+.modal-header .close {
+  padding: .5rem 0 0 0;
+}
+
 .modalClose_image {
   margin-top: 2rem;
   font-size: .875;
@@ -989,17 +1035,17 @@ li {
   width: 0;
   height: 0;
   text-rendering: optimizeLegibility;
-  color: #000;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 20px solid #000;
+  color: #EF595D;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 40px solid #EF595D;
   -webkit-animation: triangle-skew-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite;
   animation: triangle-skew-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite; 
 }
 
 .btn-wrapper {
   position: relative;
-  width: 60px;
+  width: 50px;
   cursor: pointer;
 }
 
@@ -1009,14 +1055,15 @@ li {
 }
 
 label#btnLabel { 
-  font-size: .8em; 
+  font-size: .875em; 
   line-height: 4em;
-  font-weight: 600;
-  letter-spacing: 4px;
+  font-weight: 700;
+  letter-spacing: .1em;
   text-transform: uppercase;
   color: #22606C;
   transition: all .3s ease-in;
   opacity: 0;
+  margin-left: -30px;
   cursor: pointer;
 }
 
