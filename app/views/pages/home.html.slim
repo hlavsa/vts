@@ -77,17 +77,21 @@
                             .col-6#percentage
                               span Celkova castka
                               span 140 000 
-                        .card_footer
+                        .card_footer style="margin: 1rem;"
                           .row
-                            .col-6 style="border-right: 1px solid #3b3b3b20;"
-                              a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="add payment"
-                                = image_tag('edit-3.svg', class: 'menu_image')
+                            .col-6.d-flex.justify-content-center.align-items-center style="border-right: 1px solid #3b3b3b20;"
+                              a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="Editovat"
+                                svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-footer_image"
+                                  polygon points="14 2 18 6 7 17 3 17 3 13 14 2"
+                                  line x1="3" y1="22" x2="21" y2="22"
                                 'Editovat
                           
-                            .col-6
-                              a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="edit"
-                                = image_tag('user.svg', class: 'menu_image')
-                                'Profil
+                            .col-6.d-flex.justify-content-center.align-items-center
+                              a href="#" class="card-tools" data-toggle="tooltip" data-placement="bottom" title="Zobrazit profil"
+                                svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="card-footer_image"
+                                  path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+                                  circle cx="12" cy="7" r="4"
+                                'Více info
 
                   .col-md-5
                     .card#appeal

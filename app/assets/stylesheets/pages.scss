@@ -102,6 +102,11 @@ h3 {
   border-radius: 50%;
 }
 
+.card-footer_image {
+  margin-right: 10px;
+  stroke: rgba(59, 59, 59, .3);
+}
+
 .navbar-toggle {
   z-index: 3;
 }
@@ -442,7 +447,6 @@ li.sidemenu-items {
 
 .progress_info {
   padding-top: 2rem;
-  margin-bottom: 1.4rem;
   border-bottom: 1px solid #3b3b3b20;
 }
 
@@ -474,9 +478,46 @@ li.sidemenu-items {
 .card-tools {
   color: #3b3b3b70;
   padding-left: 2.5rem;
+  
   &:first-child {
     padding-left: 0;
   }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.card-tools:before {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 2px;
+  bottom: 0;
+  left: 20px;
+  background-color: #0056b3;
+  color: #0056b3;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.card-tools:hover:before {
+  background-color: #0056b3;
+  color: #0056b3;
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.card-tools:focus:before {
+  background-color: #0056b3;
+  color: #0056b3;
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 // .card-tools:hover {
@@ -552,6 +593,7 @@ a.add_button:hover {
 
 .card {
   margin-bottom: 2.5rem;
+  margin-left: 1rem;
 }
 
 .card_header {
@@ -828,7 +870,7 @@ a#card-heading:focus:before {
   background-color: #fff;
   box-shadow: 0 4px 24px rgba(114, 182, 234, 0.2);
   border-radius: 8px;
-  padding: 2em 1.5em;  
+  padding: 2em 1.5em 0 1.5em;  
   text-align: left;
 } 
 
