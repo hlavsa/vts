@@ -354,7 +354,6 @@ li.sidemenu-items {
 
 .card#appeal {
   border: 0px;
-  color: #3b3b3b;
   background: #fff;  /* fallback for old browsers */
   -webkit-box-shadow: 0px 4px 8px 0px rgba(50, 50, 50, 0.16);
   -moz-box-shadow:    0px 4px 8px 0px rgba(50, 50, 50, 0.16);
@@ -492,18 +491,18 @@ li.sidemenu-items {
 }
 
 .nav-pills .nav-link.active {
-  color: #394558;
+  color: #22606C;
   background-color: transparent;
   border-bottom: 3px solid #774be3;
   border-radius: 0;
 }
 
 .nav-pills .nav-link {
-  color: #39455870;
+  color: #22606C70;
 }
 
 .nav-pills .nav-link:hover {
-  color: #394558;
+  color: #22606C;
   background-color: transparent;
   border-radius: 0;
 }
@@ -511,7 +510,7 @@ li.sidemenu-items {
 .nav-pills {  
   font-weight: bold;
   margin-bottom: -8px;
-  border-bottom: 1px solid #39455833;
+  border-bottom: 1px solid #22606C33;
 }
 
 .card_add {
@@ -775,50 +774,15 @@ form {
 
 
 
-.card {
-  border: 0;
-  margin-top: 20px;
-}
-
-.card-header {
-  background-color: #F5F6FA;
-  border-bottom: 0;
-  // display: flex;
-}
-
-.card#entity {
-  margin-bottom: 20px;
-}
-
-.card-heading.card-header .fa {
-  padding-right: 15px;
-  color: rgba(34, 96, 108, 0.85);
-}
-
-.card.mx-auto {
-  padding: 5px 20px 5px 20px;
-  margin-bottom: 20px;
-}
-
-Item#entity {
-  // font-size: 1.188em;
-  font-weight: 700;
-  color: rgba(34, 96, 108, 0.85);
-}
-
-// .faq-chevron_image {
-//   width: 20px;
-//   height: 20px; 
-//   stroke: rgba(34, 96, 108, 0.85);
-// }
-
-/* beatiful hover */
+/* that hover boi */
 
 a#card-heading {
   position: relative;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
+  margin-left: 1rem;
+  color: rgba(34, 96, 108, 0.85);
 }
 
 a#card-heading:before {
@@ -876,6 +840,7 @@ h4#entity_info {
   max-width: 100%;
   margin: 0;
   padding: 0;
+  overflow-y: initial !important;
 }
 
 .modal-content {
@@ -888,4 +853,41 @@ h4#entity_info {
   text-align: left; 
   margin-top: 30px;
   font-weight: 700;
+}
+
+.modalClose_image {
+  margin-top: 2rem;
+  font-size: .875;
+  font-weight: 400;
+  color: #22606C;
+}
+
+.modal-title {
+  margin-top: 2rem;  
+}
+
+.modal-body .problem_description {
+  color: #4D7593;
+  font-weight: 400;
+}
+
+h4#problemTitle {
+  font-size: 1.188em;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-top: 2rem; 
+  margin-bottom: 1.5rem;
+}
+
+.compatibility { //image
+  width: 900px;
+}
+
+.compatibility-sm { //image
+  width: 400px;
+}
+
+li {
+  line-height: 2.2;
 }
