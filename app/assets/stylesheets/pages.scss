@@ -75,11 +75,13 @@ h3 {
 }
 
 .menu_image {
-  filter: invert(.7);
+  width: 20px;
+  height: 20px;
   transition: .6s ease-in-out;
+  stroke: rgba(59, 59, 59, .3);
 
   &:hover {
-    filter: invert(.4);
+    stroke: rgba(59, 59, 59, .7);
     transition: .6s ease-in-out;
   }
 }
@@ -120,10 +122,7 @@ h3 {
 }
 
 .menu-btn {
-  margin-left: 10px;
-  margin-right: 25px;
-  font-size: 1.2em;
-  transition: all 0.7s;
+  margin: 10px 30px 0 10px;
 }
 
 nav.navbar .nav-menu {
@@ -321,6 +320,8 @@ nav.side-navbar ul li a {
   transition: .6s ease-in-out;
 
   &:hover {
+    width: 19px;
+    height: 19px;
     stroke: rgba(59, 59, 59, .7);
     transition: .6s ease-in-out;
   }
@@ -343,7 +344,7 @@ nav.side-navbar ul li a {
   transition: .6s ease-in-out;
 
   &:hover {
-    stroke: rgba(59, 59, 59, .7);
+    stroke: #fff;
     transition: .6s ease-in-out;
   }
 }
@@ -446,7 +447,7 @@ li.sidemenu-items {
 }
 
 .progress_info {
-  padding-top: 2rem;
+  padding: 1.5rem 0;
   border-bottom: 1px solid #3b3b3b20;
 }
 
@@ -592,8 +593,7 @@ a.add_button:hover {
 }
 
 .card {
-  margin-bottom: 2.5rem;
-  margin-left: 1rem;
+  margin: 0 0 2.5rem 1.5rem;
 }
 
 .card_header {
@@ -619,6 +619,12 @@ a.add_button:hover {
   height: 50px;
   width: 50px;
   border-radius: 50%;
+  transition: .6s ease-in-out;
+
+  &:hover {
+    background-color: #774BE3;
+    transition: .6s ease-in-out;  
+  }
 }
 
 .btn-circle-inner {
@@ -942,4 +948,14 @@ h4#problemTitle {
 
 li {
   line-height: 2.2;
+}
+
+.progress_info .attributes .summary {
+  font-size: 1.688em;
+  font-weight: 300;
+}
+
+.progress_info .attributes .summaryDesc {
+  color: #3b3b3b50;
+  font-weight: 700;
 }

@@ -2,9 +2,12 @@ header.header
   nav class="navbar"
     .container-fluid
       .navbar-holder.d-flex.align-items-center.justify-content-between    
-        .navbar-header.mr-3.d-flex.justify-content-center.align-items-center
+        .navbar-header.d-flex.justify-content-center.align-items-center
           a id="toggle-btn" class="menu-btn active" href="#"
-            = image_tag('menu.svg', class: 'menu_image')
+            svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menu_image"
+              line x1="3" y1="12" x2="21" y2="12"
+              line x1="3" y1="6" x2="21" y2="6"
+              line x1="3" y1="18" x2="21" y2="18"
 
         //.navbar-brand
           = image_tag('obeti-logo', class: 'brand_image')    
