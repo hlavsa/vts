@@ -2,15 +2,22 @@
   nav.side-navbar.shrinked
     ul.list-unstyled
       li.sidemenu-items.active
-        a href="#"
-          = image_tag('home.svg', class: 'sidebar_image') 
+        a href="#" class="mr-3 d-flex justify-content-center align-items-center"
+          svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sidebar_image_active"
+            path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+            polyline points="9 22 9 12 15 12 15 22"
           
       li.sidemenu-items
-        a href="#"
-          = image_tag('folder.svg', class: 'sidebar_image') 
+        a href="#" class="mr-3 d-flex justify-content-center align-items-center"
+          svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sidebar_image_inactive"
+            path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
+
       li.sidemenu-items
-        a href="#"
-          = image_tag('activity.svg', class: 'sidebar_image') 
+        a href="#" class="mr-3 d-flex justify-content-center align-items-center"
+          svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sidebar_image_inactive"
+            path d="M21.21 15.89A10 10 0 1 1 8 2.83"
+            path d="M22 12A10 10 0 0 0 12 2v10z"
+
   .content-inner
     .row style="margin-left: 30px;"
       .col-md-10
@@ -34,7 +41,10 @@
                 .col-6
                   .float-left
                     a class="btn btn-circle mr-3 d-flex justify-content-center align-items-center" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"
-                      = image_tag('download.svg', class: 'sidebar_image')
+                      svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="download_image"
+                        path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+                        polyline points="7 10 12 15 17 10"
+                        line x1="12" y1="15" x2="12" y2="3"
 
         .tabpanel
           ul.nav.nav-pills id="pills-tab" role="tablist"
@@ -58,7 +68,7 @@
                               span Domko Lanko
                             .birth
                               span 3. 1. 1990
-                        .progress_info                          
+                        .progress_info   
                           .row
                             .col-6
                               .progress

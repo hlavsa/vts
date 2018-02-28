@@ -109,8 +109,8 @@ h3 {
 }
 
 .menu-btn {
-  margin-left: 13px;
-  margin-right: 22px;
+  margin-left: 10px;
+  margin-right: 25px;
   font-size: 1.2em;
   transition: all 0.7s;
 }
@@ -293,16 +293,45 @@ nav.side-navbar ul li a {
   border-left: 4px solid transparent;
 }
 
-.sidebar_image {
-  margin-right: 0;
-  margin-bottom: 2px;
+.sidebar_image_active {
+  margin-left: 6px;
   font-size: 1rem;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
-  filter: invert(.7);
-  width: 18px;
-  height: 18px;
+  width: 17px;
+  height: 17px;
+  // stroke: rgba(59, 59, 59, .3); //when inactive
+  stroke: #774be3;
 }
+
+.sidebar_image_inactive {
+  margin-left: 10px;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  width: 17px;
+  height: 17px;
+  stroke: rgba(59, 59, 59, .3); //when inactive
+  //stroke: #774be3;
+}
+
+.add_image {
+  margin-right: 0;
+  margin-bottom: 2px;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  filter: invert(.9);
+  width: 25%;
+  height: 25%;
+}
+
+.download_image {  
+  width: 25px;
+  height: 25px;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  stroke: rgba(59, 59, 59, .3); 
+}
+
 
 .brand_image {
   margin-right: 0;
@@ -561,16 +590,6 @@ a.add_button:hover {
   box-shadow:         0px 13px 13px -6px rgba(119, 75, 227, 0.75);
 }
 
-.add_image {
-  margin-right: 0;
-  margin-bottom: 2px;
-  font-size: 1rem;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
-  filter: invert(.9);
-  width: 25%;
-  height: 25%;
-}
 
 /*  login */
 
