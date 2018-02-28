@@ -76,6 +76,12 @@ h3 {
 
 .menu_image {
   filter: invert(.7);
+  transition: .6s ease-in-out;
+
+  &:hover {
+    filter: invert(.4);
+    transition: .6s ease-in-out;
+  }
 }
 
 .user_image {
@@ -226,13 +232,12 @@ nav.side-navbar {
   max-width: 75px;
   text-align: center;
   overflow: hidden;
+  height: 100%;
 }
 
 nav.side-navbar.shrinked {
   margin-left: 0;
-}
-
-nav.side-navbar.shrinked {
+  height: 100%;
   min-width: 75px;
   max-width: 75px;
   text-align: center;
@@ -296,8 +301,6 @@ nav.side-navbar ul li a {
 .sidebar_image_active {
   margin-left: 6px;
   font-size: 1rem;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
   width: 17px;
   height: 17px;
   // stroke: rgba(59, 59, 59, .3); //when inactive
@@ -306,12 +309,16 @@ nav.side-navbar ul li a {
 
 .sidebar_image_inactive {
   margin-left: 10px;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
   width: 17px;
   height: 17px;
   stroke: rgba(59, 59, 59, .3); //when inactive
   //stroke: #774be3;
+  transition: .6s ease-in-out;
+
+  &:hover {
+    stroke: rgba(59, 59, 59, .7);
+    transition: .6s ease-in-out;
+  }
 }
 
 .add_image {
@@ -327,9 +334,13 @@ nav.side-navbar ul li a {
 .download_image {  
   width: 25px;
   height: 25px;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
-  stroke: rgba(59, 59, 59, .3); 
+  stroke: rgba(59, 59, 59, .3);   
+  transition: .6s ease-in-out;
+
+  &:hover {
+    stroke: rgba(59, 59, 59, .7);
+    transition: .6s ease-in-out;
+  }
 }
 
 
@@ -485,11 +496,6 @@ li.sidemenu-items {
   padding-top: 50px;
 }
 
-.card {
-  margin-top: 60px;
-  margin-bottom: 30px;
-}
-
 .nav-pills .nav-link.active {
   color: #22606C;
   background-color: transparent;
@@ -509,7 +515,7 @@ li.sidemenu-items {
 
 .nav-pills {  
   font-weight: bold;
-  margin-bottom: -8px;
+  margin-bottom: 2.5rem;
   border-bottom: 1px solid #22606C33;
 }
 
@@ -544,6 +550,10 @@ a.add_button:hover {
   transform: scale(1.05);
 }
 
+.card {
+  margin-bottom: 2.5rem;
+}
+
 .card_header {
   border-bottom: 1px solid #3b3b3b20;
   text-align: center;
@@ -570,9 +580,9 @@ a.add_button:hover {
 }
 
 .btn-circle-inner {
-  margin-left: 20px;
+  margin-left: 22px;
   background-color: #722ea560;
-  padding: .6em .3em;
+  padding: .6em .1em;
   border-radius: 100px;
 }
 
