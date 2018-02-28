@@ -60,11 +60,17 @@ h3 {
 }
 
 .navbar-brand {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  text-align: center;
-  margin:0 auto;
+  display: inline-block;
+}
+
+.brand-logo {
+  display: block !important;
+}
+
+.brand_image {
+  margin-right: 0;
+  width: 35px;
+  height: 35px;
 }
 
 .style_image {
@@ -347,17 +353,6 @@ nav.side-navbar ul li a {
     stroke: #fff;
     transition: .6s ease-in-out;
   }
-}
-
-
-.brand_image {
-  margin-right: 0;
-  margin-bottom: 2px;
-  font-size: 1rem;
-  -webkit-transition: color 0.3s;
-  transition: color 0.3s;
-  width: 35px;
-  height: 35px;
 }
 
 li.sidemenu-items {
@@ -958,4 +953,106 @@ li {
 .progress_info .attributes .summaryDesc {
   color: #3b3b3b50;
   font-weight: 700;
+}
+
+@-webkit-keyframes triangle-skew-spin {
+  25% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
+            transform: perspective(100px) rotateX(180deg) rotateY(0); }
+  50% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+            transform: perspective(100px) rotateX(180deg) rotateY(180deg); }
+  75% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
+            transform: perspective(100px) rotateX(0) rotateY(180deg); }
+  100% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
+            transform: perspective(100px) rotateX(0) rotateY(0); } }
+@keyframes triangle-skew-spin {
+  25% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(0);
+            transform: perspective(100px) rotateX(180deg) rotateY(0); }
+  50% {
+    -webkit-transform: perspective(100px) rotateX(180deg) rotateY(180deg);
+            transform: perspective(100px) rotateX(180deg) rotateY(180deg); }
+  75% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(180deg);
+            transform: perspective(100px) rotateX(0) rotateY(180deg); }
+  100% {
+    -webkit-transform: perspective(100px) rotateX(0) rotateY(0);
+            transform: perspective(100px) rotateX(0) rotateY(0); } }
+
+
+.triangle-skew-spin > div {
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  width: 0;
+  height: 0;
+  text-rendering: optimizeLegibility;
+  color: #000;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #000;
+  -webkit-animation: triangle-skew-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite;
+  animation: triangle-skew-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite; 
+}
+
+.btn-wrapper {
+  position: relative;
+  width: 60px;
+  cursor: pointer;
+}
+
+.btn-inner {
+  width: inherit;
+  text-align: center;
+}
+
+label#btnLabel { 
+  font-size: .8em; 
+  line-height: 4em;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #22606C;
+  transition: all .3s ease-in;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.btn-inner:before, .btn-inner:after {
+  position: absolute;
+  content: '';
+  height: 4px;
+  width: inherit;
+  background: #22606C;
+  left: 0;
+  transition: all .3s ease-in;
+}
+
+.btn-inner:before {
+  top: 45%; 
+  transform: rotate(45deg);  
+}
+
+.btn-inner:after {  
+  bottom: 50%;
+  transform: rotate(-45deg);  
+}
+
+.btn-wrapper:hover label#btnLabel {
+  opacity: 1;
+}
+
+.btn-wrapper:hover .btn-inner:before,
+.btn-wrapper:hover .btn-inner:after {
+  transform: rotate(0);
+}
+
+.btn-wrapper:hover .btn-inner:before {
+  top: 0;
+}
+
+.btn-wrapper:hover .btn-inner:after {
+  bottom: 0;
 }

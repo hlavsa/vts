@@ -9,8 +9,9 @@ header.header
               line x1="3" y1="6" x2="21" y2="6"
               line x1="3" y1="18" x2="21" y2="18"
 
-        //.navbar-brand
-          = image_tag('obeti-logo', class: 'brand_image')    
+        a.navbar-brand href="home"
+          .brand-logo
+            = image_tag('obeti-logo', class: 'brand_image')    
 
         ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center"
           li class="nav-item dropdown" style=" border-left: 1px solid #3b3b3b20; padding-right: 10px; padding-left: 5px;"
