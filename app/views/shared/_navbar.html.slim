@@ -1,10 +1,10 @@
 header.header
   nav class="navbar"
-    .search-box style="display: none;"
-      button class="close"
-        = image_tag('x', class: 'menu_image')
-      form id="searchForm" action="#" role="search"
-        input class="form-control" placeholder="Zadejte spisovou značku, jméno pachatele nebo oběti..." type="search"
+    / .search-box style="display: none;"
+    /   button class="close"
+    /     = image_tag('x', class: 'menu_image')
+    /   form id="searchForm" action="#" role="search"
+    /     input class="form-control" placeholder="Zadejte spisovou značku, jméno pachatele nebo oběti..." type="search"
 
     .container-fluid
       .navbar-holder.d-flex.align-items-center.justify-content-between    
@@ -15,17 +15,21 @@ header.header
               line x1="3" y1="6" x2="21" y2="6"
               line x1="3" y1="18" x2="21" y2="18"
 
-        ul class="nav navbar-nav" style="display: inline-block;"
+        ul class="nav navbar-nav list-unstyled d-flex flex-md-row align-items-md-center"
           li.nav-item
             a.navbar-brand href="portal.justice.cz" target="_blank"
               .brand-logo
                 = image_tag('obeti-logo', class: 'brand_image')    
 
         ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center"
-          a#searchBar href="#" style="margin: 10px 30px 0 0;"
-            svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="style_image"
-              circle cx="11" cy="11" r="8"
-              line x1="21" y1="21" x2="16.65" y2="16.65"
+          li
+            .search-box
+              input type="text"
+              span
+          / a#searchBar href="#" style="margin: 10px 30px 0 0;"
+          /   svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="style_image"
+          /     circle cx="11" cy="11" r="8"
+          /     line x1="21" y1="21" x2="16.65" y2="16.65"
 
           li class="nav-item dropdown" style="border-left: 1px solid #3b3b3b20;"
             a class="nav-link ring" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin: 10px 10px 0 10px;"
