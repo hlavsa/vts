@@ -61,6 +61,7 @@ h3 {
 
 .navbar-brand {
   display: inline-block;
+  margin: 0;
 }
 
 .brand-logo {
@@ -146,6 +147,7 @@ nav.navbar .nav-item > a {
 
 .nav-link {
   padding: 0 1rem;
+  margin: 0 1.5rem 0 0;
 }
 
 // nav.navbar .search-box {
@@ -810,71 +812,6 @@ form {
 }
 
 
-/*  table */
-
-.responsive-table {
-  li {
-    border-radius: 3px;
-    padding: 25px 30px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 25px;
-  }
-  .table-header {
-    background-color: #95A5A6;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-  }
-  .table-row {
-    background-color: #ffffff;
-    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
-  }
-  .col-1 {
-    flex-basis: 10%;
-  }
-  .col-2 {
-    flex-basis: 40%;
-  }
-  .col-3 {
-    flex-basis: 25%;
-  }
-  .col-4 {
-    flex-basis: 25%;
-  }
-  
-  @media all and (max-width: 767px) {
-    .table-header {
-      display: none;
-    }
-    .table-row{
-      
-    }
-    li {
-      display: block;
-    }
-    .col {
-      
-      flex-basis: 100%;
-      
-    }
-    .col {
-      display: flex;
-      padding: 10px 0;
-      &:before {
-        color: #6C7A89;
-        padding-right: 10px;
-        content: attr(data-label);
-        flex-basis: 50%;
-        text-align: right;
-      }
-    }
-  }
-}
-
-
-
-
 /* that hover boi */
 
 a#card-heading {
@@ -994,6 +931,10 @@ h4#problemTitle {
 }
 
 li {
+  line-height: 2.2;
+}
+
+.pills-tab li.nav-item {
   line-height: 2.2;
 }
 
@@ -1184,4 +1125,55 @@ label#btnLabel {
       }
     }
   }
+}
+
+
+
+/* table */
+
+table {
+  border:none !important;
+  border-spacing: 0 10px !important;
+  border-collapse:separate !important;
+}
+
+thead {
+  text-transform: uppercase;
+  font-size: .69em;
+  color: #22606C70;
+}
+
+tbody {
+  background-color: #fff;
+  transition: .3s ease-in-out;
+
+  &:first-child {
+    background-color: inherit;
+  }
+}
+
+.table-hover tbody tr:hover {
+  background-color: #fff;
+}
+
+tbody tr {
+  &:hover {
+    transition: .3s ease-in-out;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(50, 50, 50, 0.16);
+    -moz-box-shadow:    0px 4px 8px 0px rgba(50, 50, 50, 0.16);
+    box-shadow:         0px 4px 8px 0px rgba(50, 50, 50, 0.16);
+  }
+}
+
+td {
+  padding: 1.5rem;
+}
+
+table thead th {
+  border-bottom: 0 !important;
+}
+
+.table th, .table td {
+  padding: 1.5rem;
+  border-top: 0;
 }
