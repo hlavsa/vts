@@ -1,7 +1,7 @@
 header.header
   nav class="navbar"
     .search-box style="display: none;"
-      button class="dismiss"
+      button class="close"
         = image_tag('x', class: 'menu_image')
       form id="searchForm" action="#" role="search"
         input class="form-control" placeholder="Zadejte spisovou značku, jméno pachatele nebo oběti..." type="search"
@@ -17,7 +17,7 @@ header.header
 
         ul class="nav navbar-nav" style="display: inline-block;"
           li.nav-item
-            a.navbar-brand href="home"
+            a.navbar-brand href="portal.justice.cz" target="_blank"
               .brand-logo
                 = image_tag('obeti-logo', class: 'brand_image')    
 

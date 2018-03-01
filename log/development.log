@@ -12148,3 +12148,104 @@ Completed 200 OK in 16090ms (Views: 16088.7ms)
 Completed 200 OK in 4224ms (Views: 4211.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-02-28 23:13:57 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (29.5ms)
+  Rendered shared/_navbar.html.slim (17.6ms)
+  Rendered shared/_footer.html.slim (2.7ms)
+Completed 200 OK in 85ms (Views: 84.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-28 23:16:51 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (38.1ms)
+  Rendered shared/_navbar.html.slim (43.7ms)
+  Rendered shared/_footer.html.slim (3.7ms)
+Completed 200 OK in 136ms (Views: 134.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-28 23:17:21 +0100
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.slim within layouts/application
+  Rendered pages/home.html.slim within layouts/application (43.8ms)
+  Rendered shared/_navbar.html.slim (20.0ms)
+  Rendered shared/_footer.html.slim (3.1ms)
+Completed 200 OK in 127ms (Views: 125.5ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-03-01 10:14:47 +0100
+Processing by PagesController#login as HTML
+  Rendering pages/login.html.slim within layouts/application
+  Rendered pages/login.html.slim within layouts/application (1919.3ms)
+  Rendered shared/_footer.html.slim (3.0ms)
+Completed 200 OK in 2292ms (Views: 2102.5ms)
+
+
+Started GET "/claims" for 127.0.0.1 at 2018-03-01 10:34:14 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (115.3ms)
+  Rendered shared/_navbar.html.slim (15.7ms)
+  Rendered shared/_footer.html.slim (2.6ms)
+Completed 200 OK in 164ms (Views: 161.9ms)
+
+
+Started GET "/claims" for 127.0.0.1 at 2018-03-01 10:34:48 +0100
+Processing by PagesController#claims as HTML
+  Rendering pages/claims.html.slim within layouts/application
+  Rendered pages/claims.html.slim within layouts/application (79.9ms)
+  Rendered shared/_navbar.html.slim (18.4ms)
+  Rendered shared/_footer.html.slim (2.7ms)
+Completed 200 OK in 134ms (Views: 133.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-03-01 10:39:26 +0100
+Processing by PagesController#login as HTML
+  Rendering pages/login.html.slim within layouts/application
+  Rendered pages/login.html.slim within layouts/application (21.6ms)
+  Rendered shared/_footer.html.slim (2.4ms)
+Completed 200 OK in 5059ms (Views: 5057.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-03-01 10:40:35 +0100
+Processing by PagesController#login as HTML
+  Rendering pages/login.html.slim within layouts/application
+  Rendered pages/login.html.slim within layouts/application (13.5ms)
+  Rendered shared/_footer.html.slim (8.1ms)
+Completed 200 OK in 2978ms (Views: 2976.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-03-01 10:43:09 +0100
+Processing by PagesController#login as HTML
+  Rendering pages/login.html.slim within layouts/application
+  Rendered pages/login.html.slim within layouts/application (15.5ms)
+  Rendered shared/_footer.html.slim (2.8ms)
+Completed 200 OK in 2999ms (Views: 2998.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-03-01 10:43:36 +0100
+Processing by PagesController#login as HTML
+  Rendering pages/login.html.slim within layouts/application
+  Rendered pages/login.html.slim within layouts/application (14.1ms)
+  Rendered shared/_footer.html.slim (2.3ms)
+Completed 200 OK in 2883ms (Views: 2881.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-03-01 10:44:12 +0100
+Processing by PagesController#login as HTML
+  Rendering pages/login.html.slim within layouts/application
+  Rendered pages/login.html.slim within layouts/application (14.1ms)
+  Rendered shared/_footer.html.slim (2.9ms)
+Completed 200 OK in 2903ms (Views: 2902.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-03-01 10:44:37 +0100
+Processing by PagesController#login as HTML
+  Rendering pages/login.html.slim within layouts/application
+  Rendered pages/login.html.slim within layouts/application (13.2ms)
+  Rendered shared/_footer.html.slim (4.3ms)
+Completed 200 OK in 3253ms (Views: 3252.1ms)
+
+
