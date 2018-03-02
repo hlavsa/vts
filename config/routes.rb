@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'login' => 'pages#login', as: :login
   get 'table' => 'pages#table', as: :table
   get 'favorites' => 'pages#favorites', as: :favorites
+  get 'admin' => 'pages#admin', as: :admin
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

@@ -30,6 +30,10 @@ body, html {
   color: #22606C;
 }
 
+// #content {
+//   position: relative;
+// }
+
 h1 {
   font-size: 2.8em;
   font-weight: 700;
@@ -1214,11 +1218,11 @@ svg{
   }
 }
 
-#heartCheckbox {
+input[id*='heartCheckbox'] {
   display: none;
 }
 
-#heartCheckbox:checked + label svg {
+input[id*='heartCheckbox']:checked + label svg {
     #heart {
       transform:scale(.2); 
       fill:#E2264D; 
