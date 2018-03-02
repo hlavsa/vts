@@ -8,15 +8,16 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <div id="skipToContent">
-      <a href="#content" class="sr-only sr-only-focusable"> Přeskočit na obsah
-    </div>
+  <body>    
 
     <% unless action_name == "login" %>
       <%= render 'shared/navbar' %>
     <% end %>
 
+    <!-- <div id="skipToContent">
+      <a href="#content" class="sr-only sr-only-focusable"> Přeskočit na obsah
+    </div>
+ -->
     <%= yield %>   
     
     <%= render 'shared/footer' %>
