@@ -17,29 +17,51 @@ header.header
 
         ul class="nav navbar-nav list-unstyled d-flex flex-md-row align-items-md-center" style="text-align: right; margin-left: 15%;"
           li.nav-item
-            a.navbar-brand href="http://portal.justice.cz" target="_blank"
+            a.navbar-brand href="http://portal.justice.cz" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Přejít na portal.justice.cz" 
               .brand-logo
                 = image_tag('obeti-logo', class: 'brand_image')    
 
         ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center"
-          li
-            .search-box
-              input type="text"
-              span
-          / a#searchBar href="#" style="margin: 10px 30px 0 0;"
-          /   svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="style_image"
-          /     circle cx="11" cy="11" r="8"
-          /     line x1="21" y1="21" x2="16.65" y2="16.65"
-
-          li class="nav-item dropdown" style="border-left: 1px solid #3b3b3b20;"
-            a class="nav-link ring" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin: 10px 10px 0 10px;"
+          li class="nav-item d-flex align-items-center"
+            / .search-box
+            /   input type="text"
+            /   span
+            a#searchBar href="#" style="margin: 10px 30px 0 0;" data-toggle="tooltip" data-placement="bottom" title="Hledat oběť, pachatele, spis" 
               svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="style_image"
+                circle cx="11" cy="11" r="8"
+                line x1="21" y1="21" x2="16.65" y2="16.65"
+
+          li class="nav-item dropdown" style="border-left: 1px solid #3b3b3b20;" data-toggle="tooltip" data-placement="bottom" title="Přehled a poslední VS"
+            a class="nav-link" href="#" id="Activities" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin: 10px 10px 0 10px;"
+              svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="style_image"
+                polyline points="22 12 18 12 15 21 9 3 6 12 2 12"
+            div class="dropdown-menu" aria-labelledby="Activities"
+              h5 class="dropdown-header" style="text-align: center;" Aktivity
+              .dropdown-divider
+              .debtSummary
+                .dropdown-header#Item Celkem uložené částky
+                span.dropdown-item 200 000 Kč
+              .dropdown-divider
+              .symbolNumber
+                .dropdown-header#Item Poslední vytvořený variablní symbol
+                a class="d-flex" href="#" data-toggle="tooltip" data-placement="right" title="Kopírovat" 
+                  span.dropdown-item 800047002
+                  svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menu_image"
+                    rect x="9" y="9" width="13" height="13" rx="2" ry="2"
+                    path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+
+          li class="nav-item dropdown" style="border-left: 1px solid #3b3b3b20;" data-toggle="tooltip" data-placement="bottom" title="Oznámení"
+            a class="nav-link ring" href="#" id="Notifications" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin: 10px 10px 0 10px;"
+              svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="style_image" id="image_active"
                 path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"
               span class="badge bg-red" 12
-            div class="dropdown-menu" aria-labelledby="navbarDropdown"
+            div class="dropdown-menu" aria-labelledby="Notifications"
+              h5 class="dropdown-header" style="text-align: center;" Notifikace
+              .dropdown-divider
               a class="dropdown-item" href="#" Action
               a class="dropdown-item" href="#" Another action
-              a class="dropdown-item" href="#" Vsechno
+              .dropdown-divider
+              a class="dropdown-item dropdown-show-more" style="text-align: center;" href="#" Zobrazit vše
 
           li class="nav-item dropdown" style=" border-left: 1px solid #3b3b3b20;"
             a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #3b3b3b"
