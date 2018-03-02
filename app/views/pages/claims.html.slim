@@ -13,14 +13,22 @@
             path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
 
       li.sidemenu-items
-        a href="#" class="mr-3 d-flex justify-content-center align-items-center"
+        a href="favorites" class="mr-3 d-flex justify-content-center align-items-center"
           svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="sidebar_image_inactive"
-            path d="M21.21 15.89A10 10 0 1 1 8 2.83"
-            path d="M22 12A10 10 0 0 0 12 2v10z"
+            path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
 
   .content-inner
     .row style="margin-left: 30px; margin-right: 0;"
       .col-md-10
+        .page__section
+          ul class="breadcrumbs breadcrumbs_type2"
+            li class="breadcrumbs__item"
+              a href="#0" class="breadcrumbs__element" Home
+            li class="breadcrumbs__item"
+              a href="#0" class="breadcrumbs__element" Blog
+            li class="breadcrumbs__item breadcrumbs__item_active" 
+              span class="breadcrumbs__element" Single post
+
         .entity_information
           .row
             .col-md-7
@@ -57,9 +65,37 @@
             .tab-pane.fade.show.active id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
               .card_info    
                 .row
-                  .col-md-5
+                  .col-md-4
                     .card#appeal style="border-radius: .5rem;"
                       .card-body
+                        .card-fav style="text-align: right; margin: -20px 0px -30px 0;"
+                          input type="checkbox" id="heartCheckbox"
+                          label for="heartCheckbox"
+                            svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg" height="40" width="40"
+                              g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)"
+                                path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"
+                                circle id="main-circ" fill="#E2264D" opacity="0" cx="29.5" cy="29.5" r="1.5"
+                              g id="grp7" opacity="0" transform="translate(7 6)"
+                                circle id="oval1" fill="#9CD8C3" cx="2" cy="6" r="2"
+                                circle id="oval2" fill="#8CE8C3" cx="5" cy="2" r="2"
+                              g id="grp6" opacity="0" transform="translate(0 28)"
+                                circle id="oval1" fill="#CC8EF5" cx="2" cy="7" r="2"
+                                circle id="oval2" fill="#91D2FA" cx="3" cy="2" r="2"
+                              g id="grp3" opacity="0" transform="translate(52 28)"
+                                circle id="oval2" fill="#9CD8C3" cx="2" cy="7" r="2"
+                                circle id="oval1" fill="#8CE8C3" cx="4" cy="2" r="2"
+                              g id="grp2" opacity="0" transform="translate(44 6)" fill="#CC8EF5"
+                                circle id="oval2" transform="matrix(-1 0 0 1 10 0)" cx="5" cy="6" r="2"
+                                circle id="oval1" transform="matrix(-1 0 0 1 4 0)" cx="2" cy="2" r="2"
+                              g id="grp5" opacity="0" transform="translate(14 50)" fill="#91D2FA"
+                                circle id="oval1" transform="matrix(-1 0 0 1 12 0)" cx="6" cy="5" r="2"
+                                circle id="oval2" transform="matrix(-1 0 0 1 4 0)" cx="2" cy="2" r="2"
+                              g id="grp4" opacity="0" transform="translate(35 50)" fill="#F48EA7"
+                                circle id="oval1" transform="matrix(-1 0 0 1 12 0)" cx="6" cy="5" r="2"
+                                circle id="oval2" transform="matrix(-1 0 0 1 4 0)" cx="2" cy="2" r="2"
+                              g id="grp1" opacity="0" transform="translate(24)" fill="#9FC7FA"
+                                circle id="oval1" cx="2.5" cy="3" r="2"
+                                circle id="oval2" cx="7.5" cy="2" r="2"
                         .card_header
                           .user-face
                             = image_tag('man.svg', class: 'card_image')
@@ -94,9 +130,37 @@
                                   circle cx="12" cy="7" r="4"
                                 'Další info
 
-                  .col-md-5
+                  .col-md-4
                     .card#appeal style="border-radius: .5rem;"
                       .card-body
+                        .card-fav style="text-align: right; margin: -20px 0px -30px 0;"
+                          input type="checkbox" id="heartCheckbox"
+                          label for="heartCheckbox"
+                            svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg" height="40" width="40"
+                              g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)"
+                                path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"
+                                circle id="main-circ" fill="#E2264D" opacity="0" cx="29.5" cy="29.5" r="1.5"
+                              g id="grp7" opacity="0" transform="translate(7 6)"
+                                circle id="oval1" fill="#9CD8C3" cx="2" cy="6" r="2"
+                                circle id="oval2" fill="#8CE8C3" cx="5" cy="2" r="2"
+                              g id="grp6" opacity="0" transform="translate(0 28)"
+                                circle id="oval1" fill="#CC8EF5" cx="2" cy="7" r="2"
+                                circle id="oval2" fill="#91D2FA" cx="3" cy="2" r="2"
+                              g id="grp3" opacity="0" transform="translate(52 28)"
+                                circle id="oval2" fill="#9CD8C3" cx="2" cy="7" r="2"
+                                circle id="oval1" fill="#8CE8C3" cx="4" cy="2" r="2"
+                              g id="grp2" opacity="0" transform="translate(44 6)" fill="#CC8EF5"
+                                circle id="oval2" transform="matrix(-1 0 0 1 10 0)" cx="5" cy="6" r="2"
+                                circle id="oval1" transform="matrix(-1 0 0 1 4 0)" cx="2" cy="2" r="2"
+                              g id="grp5" opacity="0" transform="translate(14 50)" fill="#91D2FA"
+                                circle id="oval1" transform="matrix(-1 0 0 1 12 0)" cx="6" cy="5" r="2"
+                                circle id="oval2" transform="matrix(-1 0 0 1 4 0)" cx="2" cy="2" r="2"
+                              g id="grp4" opacity="0" transform="translate(35 50)" fill="#F48EA7"
+                                circle id="oval1" transform="matrix(-1 0 0 1 12 0)" cx="6" cy="5" r="2"
+                                circle id="oval2" transform="matrix(-1 0 0 1 4 0)" cx="2" cy="2" r="2"
+                              g id="grp1" opacity="0" transform="translate(24)" fill="#9FC7FA"
+                                circle id="oval1" cx="2.5" cy="3" r="2"
+                                circle id="oval2" cx="7.5" cy="2" r="2"
                         .card_header
                           .user-face
                             = image_tag('man.svg', class: 'card_image')
@@ -131,9 +195,37 @@
                                   circle cx="12" cy="7" r="4"
                                 'Další info
 
-                  .col-md-5
+                  .col-md-4
                     .card#appeal style="border-radius: .5rem;"
                       .card-body
+                        .card-fav style="text-align: right; margin: -20px 0px -30px 0;"
+                          input type="checkbox" id="heartCheckbox"
+                          label for="heartCheckbox"
+                            svg id="heart-svg" viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg" height="40" width="40"
+                              g id="Group" fill="none" fill-rule="evenodd" transform="translate(467 392)"
+                                path d="M29.144 20.773c-.063-.13-4.227-8.67-11.44-2.59C7.63 28.795 28.94 43.256 29.143 43.394c.204-.138 21.513-14.6 11.44-25.213-7.214-6.08-11.377 2.46-11.44 2.59z" id="heart" fill="#AAB8C2"
+                                circle id="main-circ" fill="#E2264D" opacity="0" cx="29.5" cy="29.5" r="1.5"
+                              g id="grp7" opacity="0" transform="translate(7 6)"
+                                circle id="oval1" fill="#9CD8C3" cx="2" cy="6" r="2"
+                                circle id="oval2" fill="#8CE8C3" cx="5" cy="2" r="2"
+                              g id="grp6" opacity="0" transform="translate(0 28)"
+                                circle id="oval1" fill="#CC8EF5" cx="2" cy="7" r="2"
+                                circle id="oval2" fill="#91D2FA" cx="3" cy="2" r="2"
+                              g id="grp3" opacity="0" transform="translate(52 28)"
+                                circle id="oval2" fill="#9CD8C3" cx="2" cy="7" r="2"
+                                circle id="oval1" fill="#8CE8C3" cx="4" cy="2" r="2"
+                              g id="grp2" opacity="0" transform="translate(44 6)" fill="#CC8EF5"
+                                circle id="oval2" transform="matrix(-1 0 0 1 10 0)" cx="5" cy="6" r="2"
+                                circle id="oval1" transform="matrix(-1 0 0 1 4 0)" cx="2" cy="2" r="2"
+                              g id="grp5" opacity="0" transform="translate(14 50)" fill="#91D2FA"
+                                circle id="oval1" transform="matrix(-1 0 0 1 12 0)" cx="6" cy="5" r="2"
+                                circle id="oval2" transform="matrix(-1 0 0 1 4 0)" cx="2" cy="2" r="2"
+                              g id="grp4" opacity="0" transform="translate(35 50)" fill="#F48EA7"
+                                circle id="oval1" transform="matrix(-1 0 0 1 12 0)" cx="6" cy="5" r="2"
+                                circle id="oval2" transform="matrix(-1 0 0 1 4 0)" cx="2" cy="2" r="2"
+                              g id="grp1" opacity="0" transform="translate(24)" fill="#9FC7FA"
+                                circle id="oval1" cx="2.5" cy="3" r="2"
+                                circle id="oval2" cx="7.5" cy="2" r="2"
                         .card_header
                           .user-face
                             = image_tag('man.svg', class: 'card_image')
