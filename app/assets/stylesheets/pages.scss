@@ -93,6 +93,7 @@ h3 {
   stroke: rgba(59, 59, 59, .3);
 
   &:hover {
+    transform: scaleX(1.1);
     stroke: rgba(59, 59, 59, .7);
     transition: .6s ease-in-out;
   }
@@ -376,8 +377,8 @@ nav.side-navbar ul li a {
   transition: .6s ease-in-out;
 
   &:hover {
-    width: 19px;
-    height: 19px;
+    transform: scaleX(1.1);
+    // transform: scaleY(1.1);
     stroke: rgba(59, 59, 59, .7);
     transition: .6s ease-in-out;
   }
@@ -819,7 +820,6 @@ a#card-heading {
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
-  margin-left: 1rem;
   color: rgba(34, 96, 108, 0.85);
 }
 
